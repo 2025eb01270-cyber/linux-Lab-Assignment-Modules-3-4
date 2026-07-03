@@ -1,0 +1,5 @@
+1. Executed 'id' to observe the current user's UID, GID, and associated group memberships.
+2. Printed the $SHELL environment variable to identify the active command-line interpreter.
+3. Used 'pwd' to print the absolute path of the current working directory.
+4. Executed 'ls -la' to display all files, including hidden files, and their permissions in a long listing format.
+5. Sent 4 ICMP echo request packets to verify outbound DNS resolution and network connectivity.

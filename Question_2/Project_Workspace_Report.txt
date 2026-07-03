@@ -1,0 +1,5 @@
+1. Used 'mkdir -p' to create a parent project directory containing subdirectories for documentation and source code.
+2. Checked the current umask value, which determines the default permissions for newly created files and directories.
+3. Listed the default directory permissions assigned upon creation based on the system umask.
+4. Modified permissions to '770' to grant read/write/execute access strictly to the owner and group, protecting project data from others.
+5. Verified that the new strict permissions and ownership changes were successfully applied.

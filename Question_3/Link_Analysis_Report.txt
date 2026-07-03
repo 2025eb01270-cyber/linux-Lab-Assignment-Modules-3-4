@@ -1,0 +1,4 @@
+1. Created a base file, a hard link pointing directly to the file's inode, and a symbolic link pointing to the file's path.
+2. Listed inode numbers. Observed that the original file and hard link share the exact same inode, while the symbolic link has a unique inode.
+3. Used 'stat' to view detailed metadata, including access times, block size, and precise inode allocation.
+4. Deleting the original file breaks the symbolic link because the path is missing, but the hard link retains the data as the inode remains allocated.

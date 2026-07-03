@@ -1,0 +1,4 @@
+1. Used lsblk and df -h to view available block devices and mounted filesystems capacities.
+2. Analyzed specific directory sizes with du and checked inode consumption with df -i.
+3. Storage Health Observations: The filesystem has adequate storage and inode availability. 
+4. Recommendations: Monitor /var directory growth to ensure it does not exhaust root partition space.
